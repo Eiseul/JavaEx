@@ -1,11 +1,14 @@
+
 import java.util.Scanner;
+
+
 
 public class $04CompLogic {
     public static void main(String[] args) {
         int score = 0;
         String pass = "";
 
-        scanner sc = new scanner();
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("당신의 시험 점수는?(0~100) >> ");
         score = sc.nextInt();
