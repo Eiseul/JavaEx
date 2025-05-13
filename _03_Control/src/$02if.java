@@ -1,8 +1,6 @@
-
-import javax.lang.model.util.ElementScanner14;
+import java.util.Scanner;
 
 public class $02if {
-
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
@@ -17,12 +15,9 @@ public class $02if {
             System.out.println("C학점");
         else if(score >= 60)
             System.out.println("D학점");
-    
         else
-            System.out.println("F학점");
-
+            System.out.println("F학점");            
 
         sc.close();
     }
 }
-

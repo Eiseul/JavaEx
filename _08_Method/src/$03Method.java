@@ -29,32 +29,29 @@ public class $03Method {
         return result;
     }
 
-
-    public static void viewResult(Scanner sc, int result){
+    public static void viewResult(int result){
         System.out.println("결과값은 " + result + "입니다.");
     }
 
-    public static int inputNum(int order1){
-        System.out.print("번째 정수 입력 >> ");
+    public static int inputNum(Scanner sc, int order){
+        System.out.print(order + "번째 정수 입력 >> ");
         int num = sc.nextInt();
         return num;
     }
 
-    public static int inputNum(int order2){
+    public static String inputStr(Scanner sc){
         System.out.print("연산자 입력(+ - * / %) >> ");
-        int num = sc.next();
-        return num;
+        String op = sc.next();
+        return op;
     }
-    
 
     public static void main(String[] args) throws Exception {
 
         Scanner sc = new Scanner(System.in);
 
-        int num0 = inputNum(sc, order1);
-        int num1 = inputNum(sc, order2);
-        System.out.print("연산자 입력(+ - * / %) >> ");
-        String op = sc.next();
+        int num0 = inputNum(sc, 1);
+        int num1 = inputNum(sc, 2);
+        String op = inputStr(sc);
         int result = 0;
 
         result = calcArith(op, num0, num1);     // 사칙 연산
