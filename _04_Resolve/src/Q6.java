@@ -7,6 +7,6 @@ public class Q6 {
             System.out.println(num);        //출력
             num++;                          //증가
         }
-        while ( num <= 20 );               //조건
+        while ( num <= 20 );                //조건
     }
 }
