@@ -9,28 +9,30 @@ public class basic08 {
         int num = 0;
 
         while(true){
-            System.out.println("나이를 입력하세요 >> ");
+            System.out.print("나이를 입력하세요 >> ");
             int age = sc.nextInt();
             sc.nextLine();
 
-            if ( age >= 0 && age <= 7 );{
+            if (age < 0){
+                System.out.println("입력을 종료합니다.");
+            break;
+            }
+
+            if ( age >= 0 && age <= 7){
                 System.out.println("유아입니다");
             }
-            else if ( age <= 8 && age <= 13 );{
+            else if ( age >= 8 && age <= 13 ){
                 System.out.println("초등학생입니다");
             }
-            else if ( age <= 14 && age <= 16 );{
+            else if ( age >= 14 && age <= 16 ){
                 System.out.println("중학생입니다");
             }
-            else if ( age <= 17 && age <= 19 );{
+            else if ( age >= 17 && age <= 19 ){
                 System.out.println("고등학생입니다");
             }
             else {
                 System.out.println("성인입니다");
             }
-            
-        age < 0;
-        break;
         }
     }
 }
