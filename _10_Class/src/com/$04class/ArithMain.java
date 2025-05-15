@@ -2,7 +2,7 @@ package com.$04class;
 
 public class ArithMain {
     public static void main(String[] args) {
-        int a = 10, b=5;
+        int a = 10, b = 5;
         int result = 0;
 
         Arith arith = new Arith();
