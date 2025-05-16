@@ -1,4 +1,4 @@
-package _12_Extends.src.com.$02ext;
+package com.$02ext;
 
 public class Father extends GrandFather {
     long money = 1000000000000000000L;

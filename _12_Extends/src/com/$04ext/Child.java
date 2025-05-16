@@ -1,4 +1,4 @@
-package _12_Extends.src.com.$04ext;
+package com.$04ext;
 
 public class Child extends Father{
     float day = 365 + 1.0f/4;

@@ -1,4 +1,4 @@
-package com.$06iskindof;
+package com.$07hasa;
 
 public class Gun {
     private int bullet;

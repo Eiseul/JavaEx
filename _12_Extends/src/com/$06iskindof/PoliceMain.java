@@ -1,4 +1,4 @@
-package _12_Extends.src.com.$06iskindof;
+package com.$06iskindof;
 
 /*
  * 객체지향 재사용 방법

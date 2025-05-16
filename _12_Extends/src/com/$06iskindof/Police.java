@@ -1,4 +1,4 @@
-package _12_Extends.src.com.$06iskindof;
+package com.$06iskindof;
 
 public class Police extends Gun{
     private int handCuffs;

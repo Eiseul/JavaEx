@@ -1,4 +1,4 @@
-package _12_Extends.src.com.$06iskindof;
+package com.$06iskindof;
 
 public class NursePolice extends Police{
     private int thermometers;       // 체온계 개수

@@ -1,4 +1,4 @@
-package _12_Extends.src.com.$04ext;
+package com.$04ext;
 
 public class GrandFather {
     // 접근제한자를 설정하지 않으면 default 권한이 부여된다.
