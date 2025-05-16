@@ -9,6 +9,6 @@ public class Sub {
     }
 
     public int calculate(){
-        retrun a - b;
+        return a - b;
     }
 }

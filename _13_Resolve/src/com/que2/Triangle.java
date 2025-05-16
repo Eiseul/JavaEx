@@ -1,11 +1,11 @@
-package com.quen1;
+package com.que2;
 
 public class Triangle {
     private double base;        //밑변
     private double height;      //높이
 
     // 생성자 : 객체 생성과 동시에 밑변, 높이 초기화
-    public Traiangle(double base, double height){
+    public Triangle(double base, double height){
         this.base = base;
         this.height = height;
     }
@@ -16,7 +16,7 @@ public class Triangle {
     }
 
     // 높이 변경
-    public void setHeihgt(double height){
+    public void setHeight(double height){
         this.height = height;
     }
 

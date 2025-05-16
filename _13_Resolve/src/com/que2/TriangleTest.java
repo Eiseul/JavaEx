@@ -1,4 +1,4 @@
-package com.quen1;
+package com.que2;
 
 public class TriangleTest {
     public static void main(String[] args) {
