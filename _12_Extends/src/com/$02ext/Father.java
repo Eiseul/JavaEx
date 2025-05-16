@@ -1,6 +1,8 @@
-package _12_Extends.com.$01ext;
+package _12_Extends.src.com.$02ext;
 
 public class Father extends GrandFather {
+    long money = 1000000000000000000L;
+
     void wealth(){
         System.out.println("돈을 많이 벌었다.");
     }

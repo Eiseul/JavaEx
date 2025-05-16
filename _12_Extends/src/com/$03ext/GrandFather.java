@@ -1,4 +1,4 @@
-package _12_Extends.com.$03ext;
+package _12_Extends.src.com.$03ext;
 
 public class GrandFather {
     int handsomeScore = 10;

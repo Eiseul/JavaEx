@@ -1,8 +1,16 @@
-package _12_Extends.com.$04ext;
+package _12_Extends.src.com.$05ext;
 
 public class GrandFather {
-    int handsomeScore = 10;
-    
+    private int handsomeScore = 10;
+
+    public int getHandsomeScore() {
+        return this.handsomeScore;
+    }
+
+    public void setHandsomeScore(int handsomeScore) {
+        this.handsomeScore = handsomeScore;
+    }
+
     // 디폴트 생성자
     public GrandFather(){
         System.out.println("GrandFather 생성자");
