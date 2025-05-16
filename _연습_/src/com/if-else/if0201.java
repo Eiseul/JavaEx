@@ -4,7 +4,7 @@
 */
 import java.util.Scanner;                                   // 유틸 툴 불러오기
 
-public class basic07_1 {                                    // 시작문
+public class if0201 {                                    // 시작문
     public static void main(String[] args) {                // 메인함수
         Scanner sc = new Scanner(System.in);                // 입력 받겠다
 

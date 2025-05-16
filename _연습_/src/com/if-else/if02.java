@@ -12,7 +12,7 @@ if, else if, else를 사용해서 구분하기
 */
 import java.util.Scanner;                                   // 유틸 툴 불러오기
 
-public class basic07 {                                      // 시작문
+public class if02 {                                      // 시작문
     public static void main(String[] args) {                // 메인함수
         Scanner sc = new Scanner(System.in);                // 입력 받겠다
 

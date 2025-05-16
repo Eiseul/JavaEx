@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class basic10 {
+public class while03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,7 +2,7 @@
 - `짝수` 대신 `홀수` 조건으로 바꿔봐 (`i % 2 != 0`)
 - 최종 합계를 `System.out.println()`으로 출력 */
 
-public class basic16 {
+public class for05 {
     public static void main(String[] args) {
         int sum = 0;                                // 누적 합계 정의
 

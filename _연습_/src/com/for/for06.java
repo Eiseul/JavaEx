@@ -1,7 +1,7 @@
 /*[문제 2] 1부터 100까지 숫자 중에서
 - **3의 배수이면서 5의 배수인 수**만 더해서 출력하기 */
 
-public class basic17 {
+public class for06 {
     public static void main(String[] args) {
 
         int sum = 0;                  // 합계 저장할 곳을 만들어야함

@@ -2,7 +2,7 @@
 나이를 여러 번 입력 받아 등급을 출력하고 , 음수를 입력하면 반복을 종료한다*/
 import java.util.Scanner;
 
-public class basic08 {
+public class while01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    // 스캐너입력
 

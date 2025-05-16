@@ -2,7 +2,7 @@
 - 1부터 100까지 숫자 중 **짝수만 골라서**
 - 그 값들을 **모두 더한 후**, 마지막에 합계를 출력하기 */
 
-public class basic15 {
+public class for02 {
     public static void main(String[] args) {
         int sum = 0;
 

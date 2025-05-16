@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class basic09 {
+public class while02 {
     public static void main(String[] args) {            // 메인함수
 
         Scanner sc = new Scanner(System.in);            // 스캐너 정보 불러오기

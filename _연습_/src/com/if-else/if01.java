@@ -4,7 +4,7 @@ if, else, Scanner 사용
 */
 import java.util.Scanner;
 
-public class basic06 {
+public class if01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

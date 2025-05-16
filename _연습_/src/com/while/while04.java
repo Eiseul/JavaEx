@@ -20,7 +20,7 @@ n을 계속해서 2로 나눕니다. 그리고 각 단계에서 나눈 결과를
 
 import java.util.Scanner;                                       // 스캐너설정
 
-public class basic11 {
+public class while04 {
     public static void main(String[] args) {                    // 메인설정
         Scanner sc = new Scanner(System.in);
 
