@@ -1,4 +1,4 @@
-package _12_Extends.src.com.$03ext;
+package _12_Extends.com.$03ext;
 
 public class ExtensMain {
     public static void main(String[] args) {

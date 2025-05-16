@@ -1,4 +1,4 @@
-package _12_Extends.src.com.$01ext;
+package _12_Extends.com.$01ext;
 
 public class Child extends Father{
     void play(){
