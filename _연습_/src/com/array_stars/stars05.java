@@ -12,9 +12,9 @@ public class stars05 {
         stars = new String[] {"*", "*", "*", "*", "*"}; //입력
 
         // 반복문 생성 
-        for(int i = 0; i < stars.length; i++){
-            for(int j = stars.length; j > 0; j++){
-                if(i <= j){
+        for(int i = 0; i < stars.length; i++){          // 줄번호
+            for(int j = 0; j < stars.length; j++){      // 반복문 인덱스
+                if(j < stars.length-i-1){
                     System.out.print(" ");
                 }else{
                     System.out.print(stars[j]);
@@ -24,5 +24,3 @@ public class stars05 {
         }
     }
 }
-
-무한 반복이다 실행하지마
