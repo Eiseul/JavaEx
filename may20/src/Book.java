@@ -247,7 +247,7 @@ public class Book {
 
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("1. 도서 검색");
+        System.out.println("1. 전체 도서 목록 조회");
         System.out.println("2. 도서 추가");
         System.out.println("3. 도서 수정");
         System.out.println("4. 도서 삭제");

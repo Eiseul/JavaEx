@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Book",
+      "request": "launch",
+      "mainClass": "Book",
+      "projectName": "may20",
+      "cwd": "${workspaceFolder}/may20",
+      "console": "integratedTerminal",
+      "args": "",
+      "vmArgs": "-Dfile.encoding=UTF-8 -cp \"${workspaceFolder}/may20/bin;${workspaceFolder}/may20/lib/ojdbc17.jar\""
+    }
+  ]
+}

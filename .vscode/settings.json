@@ -5,8 +5,6 @@
         "c:\\Users\\비트\\Downloads\\ojdbc17.jar"
     ],
     "java.project.sourcePaths": [
-        "project/src/com/test",
-        "project/src/com/0520mini",
-        "project/src/com/mini0520"
+        "may20/src"
     ]
 }
