@@ -1,0 +1,16 @@
+{
+   "java.project.sourcePaths": [
+        "may20/src"
+    ],
+    "java.project.outputPath": "may20/bin",
+    "java.project.referencedLibraries": [
+        "may20/lib/**/*.jar"
+  ],
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": ["${env:windir}\\System32\\cmd.exe"],
+      "args": ["/K", "chcp 65001"]
+    }
+  }
+}
